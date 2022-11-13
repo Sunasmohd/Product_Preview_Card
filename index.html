@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/b9923c9072.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+<body>
+
+    <div class="container">
+      <div class="card">
+          <picture>
+            <source class="a" media="(max-width: 999px)" srcset="images\image-product-mobile.jpg">
+            <source class="b" media="(min-width: 1000px)" srcset="images\image-product-desktop.jpg">
+            <img src="" alt="">
+          </picture>
+
+      </div>
+      
+      <div class="card2">
+  
+        <p class="para1">PERFUME</p>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p class="para2">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+        <div class="inline">
+          <p class="para3">$149.99</p>
+          <p class="para4">$169.99</p>
+        </div>
+        <button><span><i class="fas fa-shopping-cart"></i></span>Add to Cart</button>
+  
+      </div>
+    </div>
+
+</body>
+</html>
